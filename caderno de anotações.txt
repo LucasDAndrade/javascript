@@ -32,3 +32,17 @@ entre colchetes e chaves.
 boolean: true e false.
 
 digitar typeof var/let para saber qual tipo é a sua variável
+
+
+Number possui 2 variações:
+parseInt(números inteiros) e parseFloat(números com o ".", floating point.
+
+-> a variável vai receber o que vier do prompt convertido em número
+inteiro ou floating point, dependendo da variação atribuída
+-> Number(n) reconhece a variável sem precisar de mais nada
+
+-> n1.toFixed(2) para escolher 2 casas depois da vírgula
+-> n1.toFixed(2).replace('.', ',') trocar o . pela ,
+como é usado aqui no br
+-> n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+transforma o resultado em moedas locais, real brasileiro no exemplo.

@@ -1,6 +1,34 @@
-anotações sobre javascript
+caderno de anotações javascript
+
+
+
+----------------------------------------------------------------------------
 
 · array
 
 um array (vetor ou variável composta) é uma variável que tem vários elementos,
 cada elemento é composto por seu valor e por uma chave de identificação.
+
+----------------------------------------------------------------------------
+
+-- Módulo B, vídeo 05
+
+	3 tipos de janelas que podem ser disparadas: 
+window.alert() -> alerta, apenas para o usuário clicar em ok
+window.confirm() -> uma janela que o permite escolher ok ou cancelar
+window.prompt() -> uma caixa de texto para o usuário digitar a resposta
+
+
+-- Módulo B, vídeo 05
+
+	os 3 tipos primitivos primordiasi:
+number: números normais (5, 18, -12, 0.5, -15.9, 3.14, 8.0).
+
+string: palavras normais, cadeias de caracteres, ou números que possuem 
+".", "-", etc ("google", "javascript", "(xx) xxxxx-xxxx", "xxxxxxxxx-xx".
+as strings geralmente são encontradas entre aspas, e objetos 
+entre colchetes e chaves.
+
+boolean: true e false.
+
+digitar typeof var/let para saber qual tipo é a sua variável

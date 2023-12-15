@@ -21,7 +21,7 @@ window.prompt() -> uma caixa de texto para o usuário digitar a resposta
 
 -- Módulo B, vídeo 05
 
-	os 3 tipos primitivos primordiasi:
+	os 3 tipos primitivos primordiais:
 number: números normais (5, 18, -12, 0.5, -15.9, 3.14, 8.0).
 
 string: palavras normais, cadeias de caracteres, ou números que possuem 
@@ -49,3 +49,21 @@ transforma o resultado em moedas locais, real brasileiro no exemplo.
 
 n = n + 3 -> n+=3 -> n++
 n = n * 5 -> n*=5 -> n**
+
+
+-- Módulo C, vídeo 09
+
+	o que é o DOM?
+	o Document Object Model é um conjunto de objetos dentro do seu navegador (facilitador) que vai dar acesso aos componentes internos do seu site. o DOM está presente somente quando eu rodo javascript no navegador, não está presente no rnode.js, por exemplo. (utilizado para rodar javascript fora do navegador)
+
+	árvore DOM
+	tudo no javascript está dentro de um objeto chamado window, com vários objetos dentro dele, como location (localização pela url), document (documento atual), history (de onde você veio e para onde vai), etc.
+	dentro do document temos o html, que possui dois childs dentro dele, o head e o body.
+
+
+-- Módulo C, vídeo 10
+
+	vídeo muito bom para fixar os comandos documento.getElementById e document.querySelector, voltar aqui quando surgir alguma dúvida.
+
+
+-- Módulo D, vídeo 

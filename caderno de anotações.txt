@@ -31,7 +31,7 @@ entre colchetes e chaves.
 
 boolean: true e false.
 
-digitar typeof var/let para saber qual tipo é a sua variável
+digitar typeof var/let para saber qual tipo é a sua variável (node.js)
 
 
 Number possui 2 variações:
@@ -46,3 +46,6 @@ inteiro ou floating point, dependendo da variação atribuída
 como é usado aqui no br
 -> n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
 transforma o resultado em moedas locais, real brasileiro no exemplo.
+
+n = n + 3 -> n+=3 -> n++
+n = n * 5 -> n*=5 -> n**

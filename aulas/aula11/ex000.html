@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>imigração</title>
+</head>
+<body>
+  <h1>fronteira brasil</h1>
+  Nacionalidade do imigrante: <input type="text" name="txtnac" id="txtnac">
+  <input type="button" value="verificar" onclick="verificar()">
+
+  <div id="res">
+
+  </div>
+
+  <script>
+    function verificar() {
+      var txtn = window.document.querySelector('input#txtnac')
+      var res = window.document.querySelector('div#res')
+      var nac = (txtn.value)
+
+      res.innerHTML = `<p> O imigrante é ${nac}.</p>`
+
+      if (nac == 'brasileiro') {
+        res.innerHTML += `<p><strong>Bem vindo de volta!</strong> </p>`
+      } 
+        res.innerHTML += `<p>Você é estrangeiro. Aproveite sua estadia. </p>`
+      }
+  </script>
+</body>
+</html>

@@ -66,4 +66,17 @@ n = n * 5 -> n*=5 -> n**
 	vídeo muito bom para fixar os comandos documento.getElementById e document.querySelector, voltar aqui quando surgir alguma dúvida.
 
 
--- Módulo D, vídeo 
+-- Módulo D, vídeo 12
+
+	para executarmos o comando de escrita, utilizaremos o window.document.querySelector quando o arquivo exemplo.js (scriptado em um exemplo.html) estiver rodando no navegador. 
+	por outro lado, usaremos o comando console.log quando estivermos rodando o arquivo fora do navegador, no nosso caso, no node.js.
+
+
+-- Módulo D, exercício parte 03
+
+	colocando em prática o uso de DOM's com o javascript, voltar aqui quando surgirem dúvidas.
+
+
+-- Módulo D, exercício parte 03
+
+	exercícios sobre o while, do while e for, também voltar aqui quando surgirem dúvidas.

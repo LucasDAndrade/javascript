@@ -1,6 +1,16 @@
 caderno de anotações javascript
 
+----------------------------------------------------------------------------
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o que pegar para fixar:
+
+-comandos como document.getElementById e document.querySelector;
+-uso de DOM's com o javascript;
+-construção dos while, do while e for;
+-variáveis compostas (array);
+-funções.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ----------------------------------------------------------------------------
 
@@ -77,6 +87,6 @@ n = n * 5 -> n*=5 -> n**
 	colocando em prática o uso de DOM's com o javascript, voltar aqui quando surgirem dúvidas.
 
 
--- Módulo D, exercício parte 03
+-- Módulo D, exercício parte 04 e 05
 
 	exercícios sobre o while, do while e for, também voltar aqui quando surgirem dúvidas.

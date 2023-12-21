@@ -5,11 +5,10 @@ caderno de anotações javascript
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 o que pegar para fixar:
 
--comandos como document.getElementById e document.querySelector;
--uso de DOM's com o javascript;
+-comandos como document.getElementById, document.querySelector e innerHTML -> (uso de DOM's com o javascript);
 -construção dos while, do while e for;
 -variáveis compostas (array);
--funções.
+-funções e suas opções (onload, onclick, etc).
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ----------------------------------------------------------------------------

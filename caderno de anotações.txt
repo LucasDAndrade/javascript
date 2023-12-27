@@ -63,7 +63,7 @@ n = n * 5 -> n*=5 -> n**
 -- Módulo C, vídeo 09
 
 	o que é o DOM?
-	o Document Object Model é um conjunto de objetos dentro do seu navegador (facilitador) que vai dar acesso aos componentes internos do seu site. o DOM está presente somente quando eu rodo javascript no navegador, não está presente no rnode.js, por exemplo. (utilizado para rodar javascript fora do navegador)
+	o Document Object Model é um conjunto de objetos dentro do seu navegador (facilitador) que vai dar acesso aos componentes internos do seu site. o DOM está presente somente quando eu rodo javascript no navegador, não está presente no node.js, por exemplo. (utilizado para rodar javascript fora do navegador)
 
 	árvore DOM
 	tudo no javascript está dentro de um objeto chamado window, com vários objetos dentro dele, como location (localização pela url), document (documento atual), history (de onde você veio e para onde vai), etc.

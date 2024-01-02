@@ -7,6 +7,7 @@ Os arrays em JavaScript são estruturas de dados poderosas e versáteis. Aqui es
 
 Os índices dos arrays em JavaScript começam em 0.
 Você pode acessar elementos usando notação de colchetes, por exemplo, array[0].
+
 Propriedade length:
 
 A propriedade length de um array indica o número de elementos no array.

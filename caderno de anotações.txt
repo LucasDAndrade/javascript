@@ -8,7 +8,7 @@ o que pegar para fixar:
 -comandos como document.getElementById, document.querySelector e innerHTML -> (uso de DOM's com o javascript); ✔
 -construção dos while, do while e for; 
 -variáveis compostas (array); ✔
--funções e suas opções (onload, onclick, etc).
+-funções e seus eventos (onload, onclick, etc).
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ----------------------------------------------------------------------------
@@ -37,6 +37,19 @@ string: palavras normais, cadeias de caracteres, ou números que possuem
 ".", "-", etc ("google", "javascript", "(xx) xxxxx-xxxx", "xxxxxxxxx-xx".
 as strings geralmente são encontradas entre aspas, e objetos 
 entre colchetes e chaves.
+
+
+objetos são muito úteis para colocarmos coleções ou conjuntos de informações dentro de uma variável só
+
+exemplo de objeto: const carro = {marca: 'ford', modelo: 'ka', ano: 2015};
+(marca, modelo e ano são propriedades do objeto "carro".)
+
+chamamos de método uma propriedade que possua uma função dentro dela, ex:
+const carro = {buzina: function() {alert('biiii')}
+
+e para esse método ser acionado, deve ser feito da seguinte forma:
+carro.buzina();
+
 
 boolean: true e false.
 

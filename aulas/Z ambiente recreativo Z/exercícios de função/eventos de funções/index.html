@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eventos</title>
+</head>
+<style>
+  body {
+    text-align: center;
+  }
+</style>
+<body onload="alert('terminou de carregar.')" onresize="alert('houve um redimensionamento na janela')">
+
+  <h1>treinamento javascript - eventos</h1> <br>
+
+  <input id="botao" ondblclick="duploClique()" type="button" value="clique 2x aqui"> <br> <br>
+
+  <select onchange="mudou()" id="itens">
+    <option value="1">valor 1</option>
+    <option value="2">valor 2</option>
+    <option value="3">valor 3</option>
+    <option value="4">valor 4</option>
+  </select>
+
+  <p id="texto"></p>
+
+  <div id="teste" onmousemove="adicione()" onmouseleave="viraAzul()" onmouseenter= "viraVermelho()" style="width: 80%; height: 200px; margin: auto auto; background-color: blue;"></div> <br>
+  
+  <input onkeypress="teclaPressionada()" onblur="eventoCLick()" onfocus="limpaTexto()" id="campoTexto" style="padding: 50px; font-size: 20px;" type="text" placeholder="digite alguma coisa" value="já vem com texto">
+
+  <script src="index.js"></script>
+</body>
+</html>

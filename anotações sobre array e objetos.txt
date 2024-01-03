@@ -40,9 +40,19 @@ Spread Operator (...):
 
 Permite espalhar os elementos de um array em outro array ou objeto.
 Lembre-se de que o JavaScript é uma linguagem versátil, e há muitas outras nuances nos arrays. Experimente diferentes operações e métodos para se familiarizar com as possibilidades que eles oferecem.
+----------------------------------------------------------------------------
 
 
+objetos
 
 
+objetos são muito úteis para colocarmos coleções ou conjuntos de informações dentro de uma variável só
 
+exemplo de objeto: const carro = {marca: 'ford', modelo: 'ka', ano: 2015};
+(marca, modelo e ano são propriedades do objeto "carro".)
 
+chamamos de método uma propriedade que possua uma função dentro dela, ex:
+const carro = {buzina: function() {alert('biiii')}
+
+e para esse método ser acionado, deve ser feito da seguinte forma:
+carro.buzina();
